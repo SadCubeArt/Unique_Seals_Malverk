@@ -1,0 +1,14 @@
+{
+    "id": "Unique_Seals",
+    "name": "Unique Seals",
+    "author": ["SadCube"],
+    "version": "1.0.0",
+    "description": "Unique symbols on all seals",
+    "prefix": "u_seals",
+    "main_file": "main.lua",
+    "dependencies": [
+	"Lovely (>=0.6)",
+	"Steamodded (>=1.*~)",
+        "malverk (>=1.*)"
+    ]
+}
