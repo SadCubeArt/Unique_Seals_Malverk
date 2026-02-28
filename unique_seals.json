@@ -2,7 +2,7 @@
     "id": "Unique_Seals",
     "name": "Unique Seals",
     "author": ["SadCube"],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Unique symbols on all seals",
     "prefix": "u_seals",
     "main_file": "main.lua",
