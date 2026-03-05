@@ -40,6 +40,18 @@ if next(SMODS.find_mod("plantain")) then
     textures[#textures + 1] = "u_seals_plantain_seals"
 end
 
+if next(SMODS.find_mod("Maximus")) then
+    AltTexture({
+        key = "maximus_seals",
+        set = "Seal",
+        path = "maximus_seals.png",
+        loc_txt = { name = "Maximus" },
+        keys = { "mxms_black" },
+        display_pos = "mxms_black_seal"
+    })
+    textures[#textures + 1] = "u_seals_maximus_seals"
+end
+
 if next(SMODS.find_mod("ortalab")) then
     AltTexture({
         key = "ortalab_seals",
